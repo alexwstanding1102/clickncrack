@@ -54,9 +54,7 @@
   <body>
       
 
-      <div id="myCanvas">
-   <canvas width="480" height="320"></canvas>
-</div>
+<canvas id="canvas" width="1920" height="1440" style="border:1px solid grey;"></canvas>
 
 
 
@@ -67,6 +65,13 @@
 
     <script>
         
+        const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+ctx.font = "100px Comic Sans MS";
+ctx.fillText("MIKAN SMELLS LIKE DOOKIE", 10, 100);
+        
     </script>
   
+
 </body></html>
