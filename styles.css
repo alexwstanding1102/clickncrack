@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(22, 22, 22);
+  }
+  * {
+      color: rgb(255, 255, 255);
+      font-family:monospace;
+      font-size: large;
+      white-space: nowrap;
+  }
+  p.ro {
+      color: rgb(255, 255, 255);
+      font-size: large;
+      font-weight: bold;
+      font-size: larger;
+  }
+  h1 {
+      color: rgb(255, 255, 255);
+      font-family:'Courier New', Courier, monospace;
+      font-size: xx-large;
+  }
+div.reg{
+padding: 30px;
+line-height: 0%;
+scale: 1;
+}
+div.o1{
+width: 900px;
+line-height: 100%;
+scale: 1;
+}
+div.post{
+  border-radius: 25px;
+  padding: 30px;
+width: 900px;
+scale: 1;
+line-height: 0%;
+background-color: #1b1b1b;
+}
+div.o2{
+line-height: 0%;
+scale: 1;
+}
+.button {
+border-radius: 2500px;
+border: none;
+color: white;
+padding: 20px 50px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+font-weight: bold;
+margin: 4px 2px;
+cursor: pointer;
+transition-duration: 0.2s;
+}
+.button1 {
+background-color: #252525;
+color: white;
+}
+.button1:hover {
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition-duration: 0.2s;
+}
+
+li a:hover:not(.active) {
+background-color: #303030;
+color: #ffffff;
+}
+.active {
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+font-weight: bolder;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #0f0f0f;
+top: 0;
+width: 100%;
+}
